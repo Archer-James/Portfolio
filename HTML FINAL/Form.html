@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset="utf-8">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title> Adoption Form</title>
+</head>
+
+<body id="form-body">
+    <h1 id='title-form'>Adoption Form</h1>
+    <p id='description-form'>
+        Fill out this form and adopt a furry friend!
+    </p>
+    <form id="survey-form" name='survey-form'>
+        <fieldset>
+            <div class='section'>
+                <label id="name-label" for='name'>First Name</label><input id='name' type='text' name='firstname' placeholder='Hopper' required></input>
+
+                <label id="name-label" for='name'>Last Name</label><input id='name' type='text' name='lastname' placeholder='Ribbit' required></input>
+
+                <label id="email-label" for='email'>Email</label><input id='email' type='email' name='email' placeholder='hoppaw@cool.com' required></input>
+
+                <label id="number-label" for="number">Age</label><input name='age' id="number" type='number' min='13' max='100' placeholder='55'></input>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div class='dropdown-section'>
+                <label>Who do you wish to adopt?</label><select id="dropdown">
+                    <option disabled selected value class='dropdown'>(Select One)</option>
+                    <option value='Sparky'>Sparky (dog)</option>
+                    <option value='Cooper'>Cooper (dog)</option>
+                    <option value='Hotpot'>Hotpot (dog)</option>
+                    <option value='Meatloaf'>Meatloaf (dog)</option>
+                    <option value='Feta'>Feta (cat)</option>
+                    <option value="Tuna">Tuna (cat)</option>
+                    <option value="Lemon">Lemon (cat)</option>
+                    <option value="Grilled Cheese">Grilled Cheese (cat)</option>
+                    <option value="Cheesepuff">Cheesepuff (cat)</option>
+                    <option value="Hopper">Hopper (rabbit)</option>
+                    <option value="Oreo">Oreo (rabbit)</option>
+                </select>
+            </div>
+
+            <div class='checkbox-section'>
+                <p>Who will live with this animal?</p>
+                <label><input type="checkbox" value='cats' name='checkboxes' id='checkbox'>Cats</label>
+
+                <label><input type="checkbox" value='dogs' name='checkboxes' id='checkbox'>Dogs</label>
+
+                <label><input type="checkbox" value='rabbits' name='checkboxes' id='checkbox'>Rabbits</label>
+
+                <label><input type="checkbox" value='family' name='checkboxes' id='checkbox'>Family</label>
+
+                <label><input type="checkbox" value='roommates' name='checkboxes' id='checkbox'>Roommates</label>
+
+                <label><input type="checkbox" value='other' name='checkboxes' id='checkbox'>Other</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <div class='radio-section'>
+                <p>Do you agree to the <a href="#big-grid" id="adoption-fee-link">adoption fee?</a></p>
+                <label for='purchase'><input type="radio" name='purchase' class='inline' value='Yes' required />Yes</label>
+                <label for='purchase'><input type="radio" name='purchase' class='inline' value='No'  required/>No</label>
+            </div>
+        </fieldset>
+
+
+        <button type='submit' name='submit' id='submit'>Submit</button>
+    </form>
+    <div id="big-grid">
+        <div id="grid">
+            <div class="grid-item">Dog</div>
+            <div class="grid-item">Cat</div>
+            <div class="grid-item">Rabbit</div>
+            <div class="grid-item">$25</div>
+            <div class="grid-item">$20</div>
+            <div class="grid-item">$15</div>
+        </div>
+    </div>
+</body>
+
+</html>
