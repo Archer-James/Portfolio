@@ -1,1 +1,1 @@
-This is my portfolio of Java and Python
+This is my portfolio of work I have done during my time at college. 
