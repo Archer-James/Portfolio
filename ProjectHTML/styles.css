@@ -1,0 +1,310 @@
+
+/*h1 styling*/
+h1:not(#title-form) {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: block;
+    background-color: #A09998;
+}
+/*This is CSS for the main HTML page*/
+:root {
+    --new-blue: #95a4bb;
+    --new-back:#A09998;
+}
+
+* {
+    font-size: 1.1em;
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    color: #282D3C;
+    scroll-padding-top: 10vh;
+}
+
+#navbar{
+  position: fixed;
+  display: flex;
+  margin:0;
+  padding: 0;
+  right:15px;
+  top:15px;
+  z-index: 100;
+  
+  
+  
+}
+#main-a, a:not(#adoption-fee-link) {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    display: block;
+    position: relative;
+}
+#nav-back{
+  position:fixed;
+  background-color: #6B5876;
+  height: 10vh;
+  width: 100%;
+  z-index:100;
+}
+
+#welcome-section{
+ height: 100vh;
+ text-align: center;
+ background-color: var(--new-back);
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: 100%;
+ 
+ 
+}
+#about-section {
+    background-color: var(--new-back);
+    justify-content: center;
+}
+    
+#about-tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+}
+    #about-tiles ul {
+        background-color: #DCC085;
+        justify-content: center;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px;
+        list-style: none;
+    }
+    #about-tiles img {
+        max-width: 350px;
+        justify-content: center;
+        height: 300px;
+        border-radius: 10px;
+    }
+
+
+#collage{
+    width: 100%;
+    background-color:var(--new-back);
+}
+
+#collage-tiles {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 10px;
+   
+}
+#collage-tiles img {
+    width: 100%;
+    max-width: 350px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+hr{
+  height: 3px;
+  background-color: black;
+
+}
+#social-media {
+    background-color: var(--new-back);
+    padding-bottom: 30px;
+}
+#social{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color:#B89B72;
+  margin: 10px;
+  border-radius: 9%;
+}
+#social a:visited{
+    text-decoration: none;
+    color: darkslategray;
+}
+
+@media screen and (max-height: 700px) {
+  #main{
+    scroll-padding-top: 0;
+  }
+  #navbar{
+    position:relative;
+    background-color: #6B5876;
+    margin: auto;
+    padding: auto;
+    right: 0;
+  }
+  #nav-back{
+    height:0;
+    width: 0;
+  }
+
+}
+
+/*CSS for Adopt*/
+#Adoption-Form {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+#heart{
+text-align: center;
+font-size: 8em;
+animation: pulse infinite linear 5s;
+}
+#adopt-main {
+    background-color: var(--new-blue);
+    
+}
+#adopt-main h1{
+    background-color: var(--new-blue);
+}
+
+@keyframes pulse {
+    0% {
+        color: red;
+    }
+
+    15%{color: orange;
+}
+    30% {
+        color: yellow;
+    }
+    45%
+{
+    color: green;
+}
+    70% {
+        color: blue;
+    }
+    85%{
+           color: purple;
+       }
+    100%{
+        color: red;
+    }
+}
+
+/*CSS for Form*/
+#big-grid{
+    display: flex;
+    justify-content: center;
+}
+#grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 800px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
+.grid-item {
+    background-color: #878c93;
+    border: 2px solid black;
+}
+
+
+#form-body {
+    font-family: Geneva, sans-serif;
+    font-size: 20px;
+    background-color: #7d7d7e;
+}
+input, textarea, #dropdown {
+    background-color: #b2b2b2;
+    border: 1px solid #100c12;
+    font-size: 0.8em;
+}
+
+textarea, #dropdown, #name, #email, #number, .checkbox-section, .radio-section {
+    margin: 0.5em 0 1.5em 0;
+    width: 100%;
+    min-height: 2.5em;
+    border-radius: 5px;
+}
+
+
+
+#description {
+    margin: 1em auto;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    background-color: #7d7d7e;
+    border-bottom: 3px solid #3b3b4f;
+}
+
+    fieldset:last-of-type {
+        border-bottom: none
+    }
+
+form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2%;
+}
+
+label, p, #textarea {
+    display: block;
+    margin: .5em 0 0 0;
+}
+
+#submit {
+    color: white;
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #7d7d7e;
+    border-color: #635963;
+    min-width: 300px;
+}
+
+    #submit:hover {
+        background-color: #b2b2b2;
+    }
+
+#title-form {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1em;
+    display: block;
+    margin: 0.5em auto;
+    text-align: center;
+}
+#description-form{
+    font-size: 1.2em;
+    text-align: center;
+    display: block;
+    padding-bottom: 1em;
+}
