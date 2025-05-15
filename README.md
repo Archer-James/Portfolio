@@ -1,6 +1,34 @@
-Welcome to My Portfolio
-This portfolio highlights the work I've completed during my time at UNCW, including coursework and independent projects. It features projects in HTML, Java, Python, GUI development, and culminates in my Honors Thesis, The Seahawk Vault — a full-stack web application and research project focused on digital memory preservation.
+# College Portfolio – Katherine James
 
->  **[Read the Honors Thesis here](https://drive.google.com/file/d/1mAHcQnZ5PLzA2zA9iTHKT153dSj_Cuv_/view?usp=sharing)**  
+Welcome to my college portfolio. This repository showcases the work I've completed during my time at the University of North Carolina Wilmington (UNCW), including both coursework and independent projects. It includes development in **HTML**, **Java**, **Python**, **GUI design**, and full-stack web application work.
 
-Each project reflects my growth as a developer and my passion for building meaningful, user-focused technology.
+## Featured Work
+
+### Honors Thesis – *The Seahawk Vault*
+A full-stack web application and research project focused on digital memory preservation through student-submitted media. This project integrates technologies such as Express.js, MongoDB, Cloudinary, and React, and emphasizes secure user authentication, graduation year-based filtering, and public/private content control.
+
+**[See my Honors Thesis here](https://github.com/Archer-James/SeahawkVault/tree/main)**  
+
+### AI Planner Project
+A collaborative project focused on AI planning and decision-making algorithms. I served as the lead developer, overseeing core implementation and system design.
+
+**[View the GitHub Repository](https://github.com/Archer-James/AIPlannerProject)**
+
+## Skills & Technologies
+
+- Java, Python, JavaScript, HTML/CSS
+- React, Next.js, Node.js, Express.js
+- MongoDB, Cloudinary, JWT Authentication
+- Git & GitHub, REST APIs
+- User interface design and testing
+
+## Contact
+
+For questions or collaboration opportunities, feel free to reach out:
+
+- **Email**: kajames234@gmail.com
+- **LinkedIn**: [Katherine James](https://www.linkedin.com/in/erin-aimee-james/)
+
+---
+
+© 2025 Katherine James – UNCW Computer Science Department
